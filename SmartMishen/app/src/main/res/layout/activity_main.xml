@@ -12,8 +12,9 @@
         android:layout_height="68dp"
         android:layout_marginEnd="140dp"
         android:layout_marginBottom="4dp"
-        android:text="анализ"
         android:backgroundTint="@color/black"
+        android:onClick="onClick"
+        android:text="анализ"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 

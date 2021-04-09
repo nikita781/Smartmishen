@@ -13,13 +13,26 @@ public class analiz extends AppCompatActivity  implements View.OnClickListener{
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_analiz);
-        Button buttonBack = (Button)findViewById(R.id.nazad);
-        buttonBack.setOnClickListener(this);
     }
     @Override
     public void onClick(View view) {
         Intent i;
         i = new Intent(this, MainActivity.class);
+        startActivity(i);
+    }
+    public void onClick1(View view) {
+        Intent i;
+        i = new Intent(this, picture1.class);
+        startActivity(i);
+    }
+    public void onClick2(View view) {
+        Intent i;
+        i = new Intent(this, picture2.class);
+        startActivity(i);
+    }
+    public void onClick3(View view) {
+        Intent i;
+        i = new Intent(this, picture3.class);
         startActivity(i);
     }
 }
